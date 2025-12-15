@@ -1,0 +1,10 @@
+If you find our work useful, please cite the following article.
+
+@misc{nagata2024japanesechinese,
+      title={A Japanese-Chinese Parallel Corpus Using Crowdsourcing for Web Mining}, 
+      author={Masaaki Nagata and Makoto Morishita and Katsuki Chousa and Norihito Yasuda},
+      year={2024},
+      eprint={2405.09017},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
