@@ -12,7 +12,7 @@
 ## 2. ファイル構成 (File Structure)
 
 * `コード.ipynb`: 本プロジェクトの実行コード（データ前処理、Transformerモデルの定義、学習、評価のすべてを含むJupyter Notebook）。
-* `repoto.pdf`: プロジェクトの報告書（詳細な仕様と実験結果の説明）。
+* `repoto.pdf`: プロジェクトの報告書（詳細な内容については、このファイルを参照してください）。
 * `データ/`: データセット関連ファイルフォルダ。
     * `spm.ja.nopretok.model` / `spm.ja.nopretok.vocab`: 日本語用SentencePieceモデルおよび語彙ファイル。
     * `spm.zh.nopretok.model` / `spm.zh.nopretok.vocab`: 中国語用SentencePieceモデルおよび語彙ファイル。
