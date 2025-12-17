@@ -11,11 +11,15 @@
 
 ## 2. ファイル構成 (File Structure)
 
-* `model.py`: Transformerモデルの定義（Encoder, Decoder, Multi-Head Attention, Positional Encodingなど）。
-* `train.py`: モデルの学習ループ、損失関数、最適化アルゴリズムの実装。
-* `evaluate.py`: BLEUスコアによるモデル評価用スクリプト。
-* `data_loader.py`: データの読み込みおよび前処理（Tokenization, Embedding）を行うスクリプト。
-* `requirements.txt`: 必要なライブラリ（PyTorch, SentencePieceなど）の一覧。
+* `コード.ipynb`: 本プロジェクトの実行コード（データ前処理、Transformerモデルの定義、学習、評価のすべてを含むJupyter Notebook）。
+* `repoto.pdf`: プロジェクトの報告書（詳細な仕様と実験結果の説明）。
+* `データ/`: データセット関連ファイルフォルダ。
+    * `spm.ja.nopretok.model` / `spm.ja.nopretok.vocab`: 日本語用SentencePieceモデルおよび語彙ファイル。
+    * `spm.zh.nopretok.model` / `spm.zh.nopretok.vocab`: 中国語用SentencePieceモデルおよび語彙ファイル。
+    * `zh-ja/zh-ja/`: データセットのライセンス・引用情報フォルダ。
+        * `LICENSE`: 利用規約（日本電信電話株式会社(NTT)提供。研究目的限定、商用利用不可）。
+        * `CITATION`: データセットの引用に関する情報。
+    * *(※注: 実験に使用した対訳データセット本体はサイズが大きいため、リポジトリには含まれていません)*
 
 ## 3. データセット (Dataset)
 学習には、NTTが作成した大規模な公開日英/日中パラレルコーパスである**JParaCrawl**を使用しています。
